@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    background-color: blueviolet;
+}
+
+body{
+    background-color: orange;
+}
+
+/* .amazon-box{ */
+    /* width: 18%; */
+    /* height: 350px; */
+    /* border: 1px solid orange;
+    background-color: white; */
+    /* margin: 20px auto; */
+    /* padding: 15px; */
+
+    /* display: inline-block; */
+
+    /* box-sizing: border-box; remove padding and border effect  */
+/* } */
+
+/* .amazon-box img{
+    width: 100%;
+    margin: 20px 0;
+} */
+
+
+/* 
+display
+
+
+block: good at design,   width  100%, make a break 
+
+inline: width fit content,  bad at design 
+
+inline-block: width fit content, good at design
+
+*/
+
+
+/* 
+    use % for width  insted of px 
+    
+    full with = 100% 
+    1 div = 25% 
+    23% 24% 
+
+*/
+
+
+
+.amazon-line{
+    padding: 50px 0;
+}
+
+
+.amazon-line .amazon-box{
+    width: 18%;
+    display: inline-block;
+
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.amazon-line .amazon-box img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+
+
+
+.last-result{
+    padding: 50px 0;
+}
+
+
+.last-result .amazon-box{
+    width: 17%;
+    display: inline-block;
+
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.last-result .amazon-box img {
+    width: 100%;
+    margin: 10px 0;
+}
